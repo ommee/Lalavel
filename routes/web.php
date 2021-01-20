@@ -21,7 +21,7 @@ Route::get('/home', function () {
     return "<h1>Hello World!</h1>";
 });
 
-Route::get('/home2', function () {
+Route::get('/hello', function () {
     return view('Home');
 });
 
